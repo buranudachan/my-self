@@ -1753,13 +1753,13 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		color: #393939;
 		opacity: 0.8;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #fff;
+		color: #00bfd8;
 		opacity: 1;
 	}
 
@@ -2186,3 +2186,18 @@ a:hover.back-to-top {
 .social-media-center{
 	text-align: center;
 }
+
+.gradient-text {
+	background-color: #f3ec78;
+	text-align: center;
+	background-image: linear-gradient(45deg, #fff, #0dcaf0, #fff);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+  }
+
+  .grad {
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(191 251 254));
+  }
