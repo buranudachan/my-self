@@ -2201,3 +2201,9 @@ a:hover.back-to-top {
   .grad {
 	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(191 251 254));
   }
+
+.skill-icon:hover {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+} 
